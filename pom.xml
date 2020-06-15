@@ -41,9 +41,6 @@
 
     </build>
 
-
-
-
     <dependencies>
         <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
         <dependency>
@@ -58,7 +55,6 @@
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
         </dependency>
-
 
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
@@ -100,8 +96,6 @@
             <scope>compile</scope>
         </dependency>
 
-
     </dependencies>
-
 
 </project>

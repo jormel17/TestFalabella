@@ -6,9 +6,9 @@
         <listener class-name="resources.Listeners"/>
     </listeners>
 
-    <test name="Home Pages">
+    <test name="Falabella Test">
         <classes>
-            <class name="consolaAction"/>
+            <class name="Test.AddProductCarTest"/>
         </classes>
     </test>
 

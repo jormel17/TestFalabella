@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +102,7 @@
                     <div class="method-list-content passed suite-E2E">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-E2E" title="consolaAction" class="method navigator-link" hash-for-method="BaseNavigation">BaseNavigation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-E2E" title="consolaAction" class="method navigator-link" hash-for-method="SearchProduct">SearchProduct</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-E2E" title="consolaAction" class="method navigator-link" hash-for-method="addProduct">addProduct</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-E2E" title="Test.AddProductCarTest" class="method navigator-link" hash-for-method="BaseNavigation">BaseNavigation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-E2E -->
@@ -130,7 +120,7 @@
           <div class="suite-E2E-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">consolaAction</span>
+              <span class="class-name">Test.AddProductCarTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -138,20 +128,6 @@
                   <a name="BaseNavigation">
                   </a> <!-- BaseNavigation -->
                   <span class="method-name">BaseNavigation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SearchProduct">
-                  </a> <!-- SearchProduct -->
-                  <span class="method-name">SearchProduct</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="addProduct">
-                  </a> <!-- addProduct -->
-                  <span class="method-name">addProduct</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -169,11 +145,11 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;resources.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Home Pages&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Falabella Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;consolaAction&quot;/&gt;
+      &lt;class name=&quot;Test.AddProductCarTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Home Pages --&gt;
+  &lt;/test&gt; &lt;!-- Falabella Test --&gt;
 &lt;/suite&gt; &lt;!-- E2E --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,7 +161,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Home Pages (1 class)</span>
+                <span class="test-name">Falabella Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,24 +187,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SearchProduct')
-data.setCell(0, 2, 'consolaAction')
-data.setCell(0, 3, 8629);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addProduct')
-data.setCell(1, 2, 'consolaAction')
-data.setCell(1, 3, 8243);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'BaseNavigation')
-data.setCell(2, 2, 'consolaAction')
-data.setCell(2, 3, 5260);
+data.setCell(0, 1, 'BaseNavigation')
+data.setCell(0, 2, 'Test.AddProductCarTest')
+data.setCell(0, 3, 20253);
 window.suiteTableData['E2E']= { tableData: data, tableDiv: 'times-div-E2E'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-E2E">
               </div> <!-- times-div-E2E -->
             </div> <!-- times-div -->
@@ -254,26 +222,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">consolaAction</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Test.AddProductCarTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">BaseNavigation</span>
-                <span class="method-start">11492 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SearchProduct</span>
-                <span class="method-start">16761 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">addProduct</span>
-                <span class="method-start">25392 ms</span>
+                <span class="method-start">10219 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">33636 ms</span>
+                <span class="method-start">30484 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
