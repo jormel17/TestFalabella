@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="E2E">
+<suite name="E2E" annotations="test">
     <listeners>
         <listener class-name="resources.Listeners"/>
     </listeners>
