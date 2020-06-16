@@ -11,9 +11,9 @@ public class AddProductCarPage {
     public WebDriverWait wait;
 
     By brandLocator = By.id("testId-Accordion-Marca");
-    By checkboxLocator = By.xpath("//input[@id='SONY-5']");
-    By filterBrandLocator = By.xpath("//div[@id='testId-pod-8158922']//b[contains(@class,'pod-title')][contains(text(),'Sony')]");
-    By btnSeeProductLocator = By.xpath("//button[@id='testId-Pod-action-8158922']");
+    By checkboxLocator = By.xpath("//*[@class='jsx-53718149 multiselect']/li[14]");
+    By filterBrandLocator = By.xpath("//div[@class='jsx-287641535']/b");
+    By btnSeeProductLocator = By.xpath("//div[@class='jsx-287641535 pod-action']");
     By btnBagLocator = By.xpath("//button[@class='jsx-1816208196 button button-primary button-primary-xtra-large']");
     By titleCarOfBuyLocator = By.xpath("//span[contains(text(),'Producto(s) agregado(s) a la bolsa de compras')]");
     By btnIncrementProductLocator = By.xpath("//button[contains(@class,'jsx-635184967 increment')]");
