@@ -15,9 +15,10 @@ import java.io.IOException;
 
 public class AddProductCarTest extends Base {
 
+
     HomePage pageHome;
     AddProductCarPage pageAddProductCar;
-    String brand = "SONY";
+    String brand = "sony";
     String expectResultConsola = "Consolas";
     String expectResultBrand = "SONY";
     String expectBuyResume = "Resumen de tu orden";
@@ -39,7 +40,6 @@ public class AddProductCarTest extends Base {
 
         pageAddProductCar = new AddProductCarPage(driver);
         pageAddProductCar.clickBrand();
-
         pageAddProductCar.selectChecboxBrand(brand);
         Thread.sleep(5000);
         Assert.assertEquals(pageAddProductCar.getBrandFilter(), expectResultBrand);

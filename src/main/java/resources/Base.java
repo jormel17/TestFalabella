@@ -22,7 +22,7 @@ public class Base {
 
     public WebDriver initializedDriver() throws IOException {
         pro = new Properties();
-        FileInputStream file = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\resources\\Data.properties");
+        FileInputStream file = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/resources/Data.properties");
 
         pro.load(file);
 
@@ -32,8 +32,9 @@ public class Base {
 
         if (BrowserName.equals("chrome")) {
 
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/driver/chromedriver.exe");
             driver = new ChromeDriver();
+
 
         } else if (BrowserName.equals("firefox")) {
             System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\driver\\geckodriver.exe");
@@ -50,7 +51,7 @@ public class Base {
 
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
-        String destinationFile = System.getProperty("user.dir") + "\\reports\\" + testCaseName + ".png";
+        String destinationFile = System.getProperty("user.dir") + "/reports/" + testCaseName + ".png";
         FileUtils.copyFile(source, new File(destinationFile));
         return destinationFile;
     }
