@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-25T18:20:26 CLT" name="Test.AddProductCarTest" finished-at="2020-06-25T18:21:02 CLT" duration-ms="36076">
+  <suite started-at="2020-06-25T18:26:42 CLT" name="Test.AddProductCarTest" finished-at="2020-06-25T18:27:16 CLT" duration-ms="34404">
     <groups>
     </groups>
-    <test started-at="2020-06-25T18:20:26 CLT" name="Command line test" finished-at="2020-06-25T18:21:02 CLT" duration-ms="36076">
+    <test started-at="2020-06-25T18:26:42 CLT" name="Command line test" finished-at="2020-06-25T18:27:16 CLT" duration-ms="34404">
       <class name="Test.AddProductCarTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Test.AddProductCarTest@3578436e]" started-at="2020-06-25T18:20:26 CLT" name="initialize" finished-at="2020-06-25T18:20:37 CLT" duration-ms="10685" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Test.AddProductCarTest@3578436e]" started-at="2020-06-25T18:26:42 CLT" name="initialize" finished-at="2020-06-25T18:26:52 CLT" duration-ms="10676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="Navigation()[pri:0, instance:Test.AddProductCarTest@3578436e]" started-at="2020-06-25T18:20:37 CLT" name="Navigation" finished-at="2020-06-25T18:21:02 CLT" duration-ms="25103" status="PASS">
+        <test-method signature="Navigation()[pri:0, instance:Test.AddProductCarTest@3578436e]" started-at="2020-06-25T18:26:52 CLT" name="Navigation" finished-at="2020-06-25T18:27:16 CLT" duration-ms="23551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.AddProductCarTest@3578436e]" started-at="2020-06-25T18:21:02 CLT" name="tearDown" finished-at="2020-06-25T18:21:02 CLT" duration-ms="236" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.AddProductCarTest@3578436e]" started-at="2020-06-25T18:27:16 CLT" name="tearDown" finished-at="2020-06-25T18:27:16 CLT" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
