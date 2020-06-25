@@ -10,10 +10,10 @@ public class HomePage {
     public WebDriver driver;
     public WebDriverWait wait;
 
-    By categoryLocator = By.xpath("//div[@id='hamburgerMenu']");
-    By tecnologyLocator = By.xpath("//div[contains(text(),'Tecnología')]");
-    By consolaLocator = By.xpath("//a[contains(text(),'Consolas')]");
-    By titleConsolaLocator = By.xpath("//*[@id=\"testId-CategoryTitle-container\"]/span/h1");
+    private By categoryLocator = By.xpath("//div[@id='hamburgerMenu']");
+    private By tecnologyLocator = By.xpath("//div[contains(text(),'Tecnología')]");
+    private By consolaLocator = By.xpath("//a[contains(text(),'Consolas')]");
+    private By titleConsolaLocator = By.xpath("//*[@id=\"testId-CategoryTitle-container\"]/span/h1");
 
     public HomePage(WebDriver driver) {
         this.driver = driver;

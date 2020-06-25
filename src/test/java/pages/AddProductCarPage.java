@@ -12,15 +12,15 @@ public class AddProductCarPage {
     public WebDriver driver;
     public WebDriverWait wait;
 
-    By brandLocator = By.id("testId-Accordion-Marca");
-    By checkboxLocator = By.className("jsx-53718149");
-    By filterBrandLocator = By.xpath("//div[@class='jsx-287641535']/b");
-    By btnSeeProductLocator = By.xpath("//div[@class='jsx-287641535 pod-action']");
-    By btnBagLocator = By.xpath("//div[@id='buttonForCustomers']");
-    By titleCarOfBuyLocator = By.xpath("//span[contains(text(),'Producto(s) agregado(s) a la bolsa de compras')]");
-    By btnIncrementProductLocator = By.xpath("//div[@class='jsx-635184967 product-count']/button[2]");
-    By seeBuyCarLocator = By.xpath("//a[@id='linkButton']");
-    By OrderSummaryLocator = By.xpath("//h4[@class='fb-order-status__title']");
+    private By brandLocator = By.id("testId-Accordion-Marca");
+    private By checkboxLocator = By.className("jsx-53718149");
+    private By filterBrandLocator = By.xpath("//div[@class='jsx-287641535']/b");
+    private By btnSeeProductLocator = By.xpath("//div[@class='jsx-287641535 pod-action']");
+    private By btnBagLocator = By.xpath("//div[@id='buttonForCustomers']");
+    private By titleCarOfBuyLocator = By.xpath("//span[contains(text(),'Producto(s) agregado(s) a la bolsa de compras')]");
+    private By btnIncrementProductLocator = By.xpath("//div[@class='jsx-635184967 product-count']/button[2]");
+    private By seeBuyCarLocator = By.xpath("//a[@id='linkButton']");
+    private By OrderSummaryLocator = By.xpath("//h4[@class='fb-order-status__title']");
 
     public AddProductCarPage(WebDriver driver) {
         this.driver = driver;

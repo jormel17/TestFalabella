@@ -29,7 +29,7 @@ public class AddProductCarTest extends Base {
     }
 
     @Test
-    public void Navigation() {
+    public void Navigation() throws InterruptedException {
 
         pageHome = new HomePage(driver);
         pageHome.clickCategory();
@@ -41,6 +41,7 @@ public class AddProductCarTest extends Base {
         pageAddProductCar.clickBrand();
 
         pageAddProductCar.selectChecboxBrand(brand);
+        Thread.sleep(5000);
         Assert.assertEquals(pageAddProductCar.getBrandFilter(), expectResultBrand);
         pageAddProductCar.clickBtnSeePorduct();
         Assert.assertTrue(pageAddProductCar.getBtnAddBag().isDisplayed());

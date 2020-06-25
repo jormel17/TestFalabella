@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 public class Base {
 
 
-    public WebDriver driver;
+    public static WebDriver driver;
     public Properties pro;
 
 
@@ -26,14 +26,16 @@ public class Base {
 
         pro.load(file);
 
-        String browsername = pro.getProperty("browser");
+        String BrowserName = pro.getProperty("browser");
+        //String osName = System.getProperty("os.name").toLowerCase().contains("mac") ? "mac" : "Windows";
 
-        if (browsername.equals("chrome")) {
+
+        if (BrowserName.equals("chrome")) {
 
             System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
             driver = new ChromeDriver();
 
-        } else if (browsername.equals("firefox")) {
+        } else if (BrowserName.equals("firefox")) {
             System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\driver\\geckodriver.exe");
             driver = new FirefoxDriver();
         }
